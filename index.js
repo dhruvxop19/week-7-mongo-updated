@@ -5,7 +5,7 @@ const { auth, JWT_SECRET } = require("./auth");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 const {z} = require ("zod") ;
-mongoose.connect("mongodb+srv://dhruvieiei:bFVtnNerd09ASO57@cluster0.sgusb7i.mongodb.net/todo-dhruveiei-222")
+mongoose.connect("")
 
 const app = express();
 app.use(express.json());
